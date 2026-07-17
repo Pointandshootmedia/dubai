@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dubai and Muscat itinerary for Clement, Jim and Kayla">
+  <title>Dubai &amp; Muscat · 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <nav><span class="mark">D/M</span><span class="year">OCTOBER 2026</span></nav>
+      <div class="hero-copy"><p class="eyebrow">THREE FRIENDS · TWO COUNTRIES · TEN DAYS</p><h1>Dubai <i>&amp;</i><br>Muscat</h1><p class="lede">A living itinerary for Clement, Jim and Kayla.</p></div>
+      <div class="route"><span>CLEVELAND</span><b>→</b><span>DUBAI</span><b>→</b><span>MUSCAT</span></div>
+    </header>
+    <section class="trip-bar">
+      <div><small>TRAVELLERS</small><strong>Clement · Jim · Kayla</strong></div>
+      <div><small>DATES</small><strong>Oct 20–30</strong></div>
+      <div><small>MUSCAT STAY</small><strong>The St. Regis Al Mouj</strong></div>
+    </section>
+    <section class="content">
+      <div class="intro"><p class="eyebrow">THE PLAN SO FAR</p><h2>One day at a time.</h2><p>Confirmed travel sits alongside open days, so the group can add plans without rushing the decisions.</p></div>
+      <div class="timeline" id="timeline"></div>
+      <section class="todo" aria-labelledby="todo-title">
+        <div class="todo-head"><p class="eyebrow">BEFORE YOU GO</p><h2 id="todo-title">Things to do.</h2><p>Visa applications, seats and reservations to finish before departure.</p></div>
+        <div class="todo-grid">
+          <div class="todo-card"><span class="person">JIM</span><label><input type="checkbox" data-task="jim-uae"> Apply for UAE visa</label><label><input type="checkbox" data-task="jim-oman"> Apply for Oman visa</label><div class="todo-links"><a href="https://www.emirates.com/us/english/before-you-fly/visa-passport-information/uae-visa-information/" target="_blank" rel="noreferrer">UAE visa ↗</a><a href="https://evisa.rop.gov.om/en/visa-eligibility" target="_blank" rel="noreferrer">Oman visa ↗</a></div></div>
+          <div class="todo-card"><span class="person">KAYLA</span><label><input type="checkbox" data-task="kayla-uae"> Apply for UAE visa</label><label><input type="checkbox" data-task="kayla-oman"> Apply for Oman visa</label><div class="todo-links"><a href="https://www.emirates.com/us/english/before-you-fly/visa-passport-information/uae-visa-information/" target="_blank" rel="noreferrer">UAE visa ↗</a><a href="https://evisa.rop.gov.om/en/visa-eligibility" target="_blank" rel="noreferrer">Oman visa ↗</a></div></div>
+          <div class="todo-card"><span class="person">CLEMENT</span><label><input type="checkbox" data-task="clement-oman"> Apply for Oman visa</label><div class="todo-links"><a href="https://evisa.rop.gov.om/en/visa-eligibility" target="_blank" rel="noreferrer">Oman visa ↗</a></div></div>
+          <div class="todo-card group-card"><span class="person">EVERYONE</span>
+            <label><input type="checkbox" data-task="aa-seats"> Confirm seats on both American Airlines flights</label><label><input type="checkbox" data-task="ek-seats"> Confirm seats for EK236 and EK235</label><label><input type="checkbox" data-task="lounge"> Book The Lounge at Burj Khalifa</label><label><input type="checkbox" data-task="lebanese"> Book Lebanese Terrace</label><label><input type="checkbox" data-task="circuit"> Book Yas Marina Circuit</label><label><input type="checkbox" data-task="w-dinner"> Choose and book dinner at W Abu Dhabi</label><label><input type="checkbox" data-task="celavi"> Book CÉ LA VI</label><label><input type="checkbox" data-task="sushisamba"> Book SUSHISAMBA</label>
+            <div class="todo-links"><a href="https://www.emirates.com/us/english/manage-booking/" target="_blank" rel="noreferrer">Manage Emirates booking ↗</a></div>
+          </div>
+        </div>
+        <p class="visa-note">Confirm visa requirements against each traveller’s passport before applying; entry rules can change.</p>
+      </section>
+      <aside><span>ROAD-TRIP CHECK</span><p>Confirm that the car can cross into Oman and that the group has the rental-company NOC, Oman-valid insurance, passports and entry documents.</p></aside>
+    </section>
+    <footer><span>DUBAI · MUSCAT · 2026</span><span>Built as the adventure unfolds.</span></footer>
+  </main>
+  <script>
+    const days = [
+      ["TUE · OCT 20","Cleveland → Chicago → Dubai","Travel","Clement, Jim and Kayla fly American Airlines from Cleveland CLE at 12:51 PM, arriving Chicago ORD at 1:35 PM. Continue on Emirates EK236 from ORD at 8:35 PM to Dubai.","7-hour connection at ORD · Emirates flight is overnight",[["Manage American trip","https://www.aa.com/reservation/view/find-your-trip"],["Manage Emirates trip","https://www.emirates.com/us/english/manage-booking/"]]],
+      ["WED · OCT 21","Arrive in Dubai","Arrival","Land at DXB Terminal 3 at 7:15 PM. Clear immigration, collect bags and settle in.","Keep the evening easy"],
+      ["THU · OCT 22","Dubai Mall & The Lounge","Dubai","Spend the afternoon exploring Dubai Mall beneath the Burj Khalifa, then head up to The Lounge for drinks and skyline views from Levels 152–154.","Booking reminder: reserve The Lounge in late September",[["Explore Dubai Mall","https://thedubaimall.com/"],["The Lounge tickets","https://ticket.atthetop.ae/tickets/book-tickets/"]]],
+      ["FRI · OCT 23","Road trip to Muscat","Road trip","Leave Dubai around 7:00 AM and drive via the Hatta–Al Wajajah border. Check in at The St. Regis Al Mouj Muscat.","Allow 5–6 hours with the border",[["St. Regis","https://www.almouj.com/en/hotels/"],["Driving route","https://www.google.com/maps/dir/Dubai,+United+Arab+Emirates/The+St.+Regis+Al+Mouj+Muscat+Resort,+Muscat,+Oman/"]]],
+      ["SAT · OCT 24","A full day in Muscat","Muscat","Explore Muscat, then return to The St. Regis for the beach, pool or a relaxed evening at Al Mouj.","Stay a second night if everyone loves it",[["Hotel details","https://www.almouj.com/en/hotels/"],["Explore Muscat","https://experienceoman.om/"]]],
+      ["SUN · OCT 25","Flexible Muscat morning","Flexible","Option A: enjoy breakfast and more Muscat, then drive back to Dubai. Option B: already back in Dubai after an evening return.","Decision stays open"],
+      ["MON · OCT 26","Dubai day","Open","A full Dubai day ready for the activities, meals and neighborhood the group chooses next.","Nothing locked in yet"],
+      ["TUE · OCT 27","Abu Dhabi day trip","Abu Dhabi","Leave Dubai early and begin at Sheikh Zayed Grand Mosque. Continue to Lebanese Terrace inside Emirates Palace Mandarin Oriental for lunch, spend the afternoon at Yas Marina Circuit, then have dinner at W Abu Dhabi–Yas Island before returning to Dubai.","Suggested order: 9:30 AM mosque · 12:30 PM lunch · circuit afternoon · W dinner",[["Mosque access pass","https://szgmc.gov.ae/en/individual-booking"],["Lebanese Terrace","https://www.mandarinoriental.com/en/abu-dhabi/emirates-palace/dine/lebanese-terrace"],["Circuit tours","https://www.yasmarinacircuit.com/en/tours"],["Dinner at W","https://www.marriott.com/en-us/hotels/auhwh-w-abu-dhabi-yas-island/dining/"]]],
+      ["WED · OCT 28","Outlet shopping & CÉ LA VI","Dubai","Spend the morning shopping at Dubai Outlet Mall. Return to the hotel with time to relax and get ready, then have dinner at CÉ LA VI with skyline views over Downtown and the Burj Khalifa.","Morning outlet trip · dinner time and reservation to be confirmed",[["Dubai Outlet Mall","https://dubaioutletmall.com/"],["CÉ LA VI reservations","https://dxb.celavi.com/restaurant"]]],
+      ["THU · OCT 29","Final day & SUSHISAMBA","Dinner","Enjoy one final day in Dubai, then have dinner at SUSHISAMBA on the 51st floor of The Palm Tower, with panoramic views across Palm Jumeirah and the skyline.","Dinner time and reservation to be confirmed · leave time to pack",[["SUSHISAMBA reservations","https://www.sushisamba.com/locations/dubai"]]],
+      ["FRI · OCT 30","Dubai → Chicago → Cleveland","Travel","Clement, Jim and Kayla fly Emirates EK235 from Dubai at 9:45 AM, arriving Chicago ORD at 3:45 PM. Continue on American Airlines from ORD at 5:39 PM, arriving Cleveland CLE at 8:16 PM.","1 hr 54 min at ORD · immigration, bags and terminal transfer required",[["Manage Emirates trip","https://www.emirates.com/us/english/manage-booking/"],["Manage American trip","https://www.aa.com/reservation/view/find-your-trip"]]]
+    ];
+    const timeline = document.querySelector("#timeline");
+    days.forEach((day,index) => {
+      const links = (day[5] || []).map(link => `<a href="${link[1]}" target="_blank" rel="noreferrer">${link[0]}<b>↗</b></a>`).join("");
+      timeline.insertAdjacentHTML("beforeend",`<article class="${["Muscat","Road trip"].includes(day[2]) ? "featured" : ""}"><div class="number">${String(index+1).padStart(2,"0")}</div><div class="day-copy"><div class="date-row"><span>${day[0]}</span><em>${day[2]}</em></div><h3>${day[1]}</h3><p>${day[3]}</p><small>${day[4]}</small>${links ? `<div class="card-links">${links}</div>` : ""}</div></article>`);
+    });
+    document.querySelectorAll("[data-task]").forEach(box => {
+      box.checked = localStorage.getItem(`dubai-${box.dataset.task}`) === "done";
+      box.addEventListener("change",() => localStorage.setItem(`dubai-${box.dataset.task}`,box.checked ? "done" : "open"));
+    });
+  </script>
+</body>
+</html>
